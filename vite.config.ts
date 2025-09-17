@@ -4,6 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
+     base: '/admin/',   // ✅ GitHub Pages এর জন্য base URL
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
